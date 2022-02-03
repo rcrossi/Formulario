@@ -1,43 +1,48 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Registro de Endereco</title>
+        <title id="titulo">Registro de Endereco</title>
+        <link rel="stylesheet" href="css/style.css"/>
     </head>
     <br>
     <br>
     <body>
-        <h1>Preencha os campos abaixo para cadastrar um endereco.</h1>
-        <br>
-        <br>
+        <h1>Registro de Endereco</h1>
+        <p>Preencha os campos abaixo para cadastrar um endereco</p>
         <form action=""> 
-            <label for="Street_Input">Logradouro: </label>
-            <br>
-            <textarea id="streetInput" name="streetInput" rows="2" cols="40"> </textarea> 
+            <logradouro class="text" for="logradouro">Logradouro: </logradouro> 
             <br>
             <br>
-            <label for="Street_Input">Numero: </label>
-            <br>
-            <textarea id="streetInput" name="streetInput" rows="2" cols="40"> </textarea> 
+            <textarea class="textbox" name="streetInput" rows="1" cols="40"> </textarea>  
             <br>
             <br>
-            <label for="Street_Input">Complemento: </label>
-            <br>
-            <textarea id="streetInput" name="streetInput" rows="2" cols="40"> </textarea> 
+            <numero class="text" for="numero">Numero: </numero>
             <br>
             <br>
-            <label for="Street_Input">Nome: </label>
-            <br>
-            <textarea id="streetInput" name="streetInput" rows="2" cols="40"> </textarea> 
+            <textarea class="textbox" name="streetInput" rows="1" cols="40"> </textarea> 
             <br>
             <br>
-            <label for="Street_Input">Sobrenome: </label>
-            <br>
-            <textarea id="streetInput" name="streetInput" rows="2" cols="40"> </textarea> 
+            <complemento class="text" for="compplemento">Complemento: </complemento>
             <br>
             <br>
-            <input type="gravar" value="Gravar" size="5">
-            <input type="editar" value="Editar" size="5">
+            <textarea class="textbox" name="streetInput" rows="1" cols="40"> </textarea> 
+            <br>
+            <br>
+            <nome class="text" for="nome">Nome: </nome>
+            <br>
+            <br>
+            <textarea class="textbox" name="streetInput" rows="1" cols="40"> </textarea> 
+            <br>
+            <br>
+            <sobrenome>Sobrenome: </sobrenome>
+            <br>
+            <br>
+            <textarea class="textbox" name="streetInput" rows="1" cols="40"> </textarea> 
+            <br>
+            <br>
+            <btnGravar href ="#">Gravar</btnGravar>
+            <btnEditar href ="#">Editar</btnEditar>
+            <btnListar href ="#">Listar</btnListar>
         </form>
-
     </body>
 </html>
