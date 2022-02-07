@@ -1,0 +1,99 @@
+*
+{
+  margin: 0;
+}
+body
+{
+  font-family:'Times New Roman', Times, serif;
+}
+.header
+{
+  background-color: blueviolet;
+  padding: 10px;
+  text-align: center;
+  color:#fff;
+}
+main
+{
+  padding: 30px 50px;
+}
+.card
+{
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 20px ;
+  margin-top: 15px;
+  margin-left: auto;
+  border-radius: 5px;
+}
+.lineinput
+{
+  display: grid;
+  margin-bottom: 10px;
+}
+input
+{
+  padding: 10px;
+  margin-left: 20px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  margin: 5px 20px;
+  outline: 0;
+}
+#numero
+{
+  margin-left: 57px;
+}
+#logradouro
+{
+  margin-left: 33px;
+}
+#complemento
+{
+  margin-left: 19px;
+}
+.btn
+{
+  outline: 0;
+  padding: 15px;
+  background-color: blueviolet;
+  border-radius: 10px;
+  color: #fff;
+  font-weight: bold;
+  margin: 10px px;
+  margin-left: 115px;
+  transition: all ease 0.3ms ;
+}
+.btn:hover
+{
+  background-color: rgb(77, 24, 128);
+}
+.content
+{
+  margin-top: 15px;
+}
+table
+{
+  border-collapse: collapse;
+  border: 1px black;
+  width: 100%;
+}
+table th
+{
+  background-color: blueviolet;
+  color:#fff;
+  text-shadow: 2px black;
+  padding: 1px 5px;
+}
+table td
+{
+  background-color:none;
+  padding: 1px 5px;
+}
+table td img
+{
+ width: 20px;
+}
+.center{
+  text-align: center;
+}
