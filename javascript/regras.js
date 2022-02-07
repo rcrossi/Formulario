@@ -5,7 +5,7 @@ class Endereco
   }
 
   gravar(endereco){
-   alert("bostinha");
+   alert("teste1");
 
   }
 
@@ -41,7 +41,7 @@ class Endereco
   }
 
   cancelar(){
-    alert("merda");
+    alert("teste 2");
   }
 }
 
